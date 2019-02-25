@@ -1,0 +1,242 @@
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+
+/*游戏按钮*/
+		.game_button{
+			width: 60px;
+			height: 21px;
+			border:none;
+		}
+/*导航栏*/
+		nav{
+			width: 981px;
+			height: 45px;
+			background-image: url(images/menuBg.jpg);
+			margin-bottom: 10px;
+		}
+		.nav_a{
+			 color: white;
+			 font-size: 12px;
+			 line-height: 45px;
+			 text-decoration: none;
+		}
+		.nav_a : visited{
+			color: white;
+		}
+		#home{
+			background-image: url(images/btn-01.gif);
+			background-repeat: no-repeat;
+			width: 300px;
+			height: 40px;
+			margin-left:10px;
+			margin-top: 5px;
+			float: left;
+			color: #CB3333;
+			line-height: 40px;
+			font-size: 13px;
+			font-weight: bold;
+			padding-left: 37px;
+		}
+
+/*中间的大图片*/
+		#img{
+			width: 517px;
+			height: 232px;
+			margin:0px 10px;
+			float: left;
+		}
+		
+/*左侧列表*/
+		#game_index{
+			width: 190px;
+			height: 232px;
+			margin-bottom: 10px;
+			float: left;
+			border: 1px solid #D6D6D6;
+		}
+		.index_div{
+			height: 29px;
+			background-image: url(images/gameBg1.jpg);
+			background-repeat: no-repeat;
+		}
+		.index_div:hover{
+			background-image: url(images/gameBg2.jpg);
+		}
+		.index_span{
+			font-size: 12px;
+			display: block;
+			height: 29px;
+			background-repeat: no-repeat;
+			padding-left: 30px;
+			padding-top: 8px;
+			background-position: 5px 5px;
+		}
+
+/*登陆*/
+		#log{
+			width: 220px;
+			height: 202px;
+			margin-bottom: 10px;
+			background-color: #F3F3F3;
+			border:1px solid #D6D6D6;
+			float: left;
+			padding: 15px;
+		}
+		aside > a{
+			text-decoration: none;
+			color: #2B62A5;
+			font-size: 13px;
+			margin-left: 13px;
+			float: left;
+		}
+
+/*各部分标题*/
+		.title_bg{
+			background-image: url(images/titleBg.jpg);"
+			height: 28px;
+			line-height: 28px;
+			color: #7D0808;
+			font-family: 宋体;
+			font-size: 14px;
+			padding-left: 8px;
+			font-weight: bold;
+		}
+
+/*新闻*/
+		li{
+			border-bottom: 1px dashed gray;
+			line-height: 25px;
+			font-size: 12px;
+			list-style:none;
+			background-image: url(images/btn-04.gif);
+			background-repeat: no-repeat;
+			background-position: 3px 5px;
+			padding-left: 42px;
+		}
+		li:hover{
+			color: red;
+		}
+		#news{
+			width: 250px;
+			height: 346px;
+			border:1px solid #D6D6D6;
+			float: left;
+		}
+
+/*视频*/
+		#video{
+			width: 250px;
+			height: 270px;
+			margin-top: 10px;
+			float: left;
+			border:1px solid #D6D6D6;
+		}
+		.video_text{
+			float: left;
+			width: 105px;
+			padding-left: 7px;
+		}
+		.video_img{
+			padding-left: 5px;
+			padding-top: 20px;
+			float: left;
+		}
+
+/*视频 底部链接文本*/
+		.text_a{
+			text-decoration: none;
+			font-size: 12px;
+			color: #2B62A5;
+		}
+		.text_a:visited{
+			color: #2B62A5;
+		}
+
+/*底部*/
+		footer{
+			width: 979px;
+			height: 47px;
+			line-height: 47px;
+			font-size: 12px;
+			float: left;
+		}
+
+		
+		
+		#box{
+			width: 719px;
+			margin-right: 10px;
+			float: left;
+		}
+
+/*全部游戏*/
+		#game_classify{
+			width: 716px;
+			height: 212px;
+			border:1px solid #D6D6D6;
+		}
+		.classify_div{
+			height: 150px;
+			width: 330px;
+			margin-left: 17px;
+			margin-top:15px;
+			border:1px solid #E0E0E0;
+			float: left;
+		}
+		.classify_img{
+			width: 180px;
+			height: 135px;
+			padding:5px 5px;
+			float: left;
+		}
+		.classify_text_title{
+			color: #7D0808;
+			font-size: 13px;
+			font-weight: bold;
+			display: block;
+			margin-bottom: 5px;
+		}
+		.classify_text_div{
+			float: left;
+			width: 130px;
+			margin-top: 7px;
+			margin-left: 5px;
+		}
+		.classify_tl_a{
+			 text-decoration: underline;
+			 color: #9A9B9A;
+			 font-size:12px;
+		}
+		.classify_tl_a:visited{
+			color: #9A9B9A;
+		}
+		.classify_tl_a:hover{
+			color: red;
+		}
+
+/*角色扮演*/
+		#role_play{
+			width: 716px;
+			height: 420px;
+			border:1px solid #D6D6D6;
+		}
+		.role_div{
+			width: 150px;
+			height: 175px;
+			text-align: center;
+			margin-left: 20px;
+			margin-top: 10px;
+			padding-top:5px;
+			float: left;
+		}
+		.role_text_title{
+			color: #A70A0A;
+			font-size: 13px;
+			font-weight: bold;
+		}
+
+		a:hover{
+			text-decoration: underline;
+		}
